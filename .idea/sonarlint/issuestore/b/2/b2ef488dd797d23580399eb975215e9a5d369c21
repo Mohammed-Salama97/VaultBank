@@ -1,0 +1,12 @@
+
+q
+java:S1450"VRemove the "balance" field and declare it as a local variable in the relevant methods.(Õ¢’£ÿÿÿÿÿ
+-
+java:S2757	"Was "+=" meant instead?(þÐ˜Ò
+H
+java:S1172"-Remove this unused method parameter "amount".(¤´ÀÁþÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¬®úûÿÿÿÿ
+E
+java:S1068"/Remove this unused "accountType" private field.(¡š¼ç
+F
+java:S1068"+Remove this unused "balance" private field.(Õ¢’£ÿÿÿÿÿ

@@ -1,0 +1,19 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡
+©
+java:S1598"This file "main.java" should be located in "main" directory, not in "C:\Users\m7md_\Downloads\Programming WorkSpace\VaultBank\src\main\java".(õßÇ÷þÿÿÿÿ
+b
+java:S1223	"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘
+M
+java:S1854"7Remove this useless assignment to local variable "com".(òŠ“‡
+O
+java:S1854
+"9Remove this useless assignment to local variable "indiv".(ø £•
+@
+java:S1481
+"*Remove this unused "indiv" local variable.(ø £•
+>
+java:S1481"(Remove this unused "com" local variable.(òŠ“‡
+E	java:S106"+Replace this use of System.out by a logger.(È›±ùûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(È›±ùûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(È›±ùûÿÿÿÿ
