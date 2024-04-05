@@ -1,3 +1,16 @@
 
-f
-java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾
+’	java:S116
+"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áï»‚8»Ú†ƒé1J$a941c1bd-0267-42f5-b3a8-053c720723ab
+n
+java:S1068"+Remove this unused "empName" private field.(±Ø·¶8ÂÚ†ƒé1J$11aa65c9-c815-4192-8e9d-8a307ad53bde
+q
+java:S1068")Remove this unused "empId" private field.(ÒÑ†±şÿÿÿÿ8ÂÚ†ƒé1J$1f48cc95-a6e2-4f9a-b0fe-a18bc41f838e
+t
+java:S1068",Remove this unused "position" private field.(©ùéäıÿÿÿÿ8ÂÚ†ƒé1J$a579d485-73d7-42f3-b3ee-dd332526b7a1
+v
+java:S1068	".Remove this unused "department" private field.(š…¡êûÿÿÿÿ8ÃÚ†ƒé1J$e158123b-e88e-4557-a62f-fddc1a35a304
+l
+java:S1068
+")Remove this unused "Email" private field.(áï»‚8ÃÚ†ƒé1J$33163fd1-aa38-4efa-935b-d8c5d65696ff
+s
+java:S1068"+Remove this unused "address" private field.(÷§ùÿÿÿÿ8ÃÚ†ƒé1J$6f288617-0396-4624-9a5b-4b134a6267d3

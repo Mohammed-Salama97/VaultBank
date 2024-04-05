@@ -1,0 +1,16 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŠóÓ¥8˜¯©°é1J$0b688fe8-1bbd-4587-af7b-2abda11e0027
+
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(†“éæüÿÿÿÿ8ª¯©°é1J$93db85d0-15e7-41f2-b80c-67267404ea72
+’
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Æ‹ïú8ª¯©°é1J$73dec343-1938-46ae-983c-8629581c262d
+}
+java:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿8®¯©°é1J$85b92439-72de-43e6-aa58-7a7e1a795172
+~
+java:S6437"6Revoke and change this password, as it is compromised.(†“éæüÿÿÿÿ8°¯©°é1J$99ea1826-eace-44c5-8795-1afc4578d24b
+–
+java:S1989#"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ê€ª8²¯©°é1J$16028d45-bdd4-4eee-b008-f23c8f50c817
+–
+java:S1989("SHandle the following exception that could be thrown by "sendRedirect": IOException.(şî8³¯©°é1J$4d782eec-2735-4b7e-a878-7b9b4a58aa54
+s
+java:S1128"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8´¯©°é1J$475e8908-807b-4d12-9370-4d076c3ff913

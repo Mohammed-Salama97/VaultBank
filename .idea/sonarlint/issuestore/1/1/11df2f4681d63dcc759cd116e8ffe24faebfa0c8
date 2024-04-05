@@ -1,0 +1,12 @@
+
+	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡8Ğòö°é1J$894234d9-7bab-4ee2-af09-651e27553097
+”
+java:S1223
+"LRename this method to prevent any misunderstanding or make it a constructor.(ÙØ¤Şıÿÿÿÿ8Ñòö°é1J$09bf2b1c-0999-4827-84e3-258883cceb3f
+´
+java:S1130
+"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8Ûòö°é1J$a7c1d458-784e-4f21-be53-85c340a5e2bd
+t
+java:S1874",Remove this use of "Date"; it is deprecated.(ûšÂóùÿÿÿÿ8ñòö°é1J$efe3c0ad-5217-4fa8-8b2b-525730c44897
+s
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ8‡¯İ·é1J$370f2434-4873-44be-b89e-9a323617b3d7
