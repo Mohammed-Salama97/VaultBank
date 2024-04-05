@@ -1,12 +1,15 @@
 
-q
-java:S1450"VRemove the "balance" field and declare it as a local variable in the relevant methods.(Õ¢’£ÿÿÿÿÿ
--
-java:S2757	"Was "+=" meant instead?(þÐ˜Ò
-H
-java:S1172"-Remove this unused method parameter "amount".(¤´ÀÁþÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(¬®úûÿÿÿÿ
-E
-java:S1068"/Remove this unused "accountType" private field.(¡š¼ç
-F
-java:S1068"+Remove this unused "balance" private field.(Õ¢’£ÿÿÿÿÿ
+—
+java:S1450"VRemove the "balance" field and declare it as a local variable in the relevant methods.(Õ¢’£ÿÿÿÿÿJ$8516c418-366b-4742-8dfd-37c195bd4572
+S
+java:S2757
+"Was "+=" meant instead?(þÐ˜ÒJ$e7393a1e-f158-4cbb-a397-038eed2b5fe4
+n
+java:S1172"-Remove this unused method parameter "amount".(¤´ÀÁþÿÿÿÿJ$800809ee-c18c-4974-a78e-24ba1408282e
+|	java:S125"<This block of commented-out lines of code should be removed.(¬®úûÿÿÿÿJ$5cbb3365-e1e0-45b4-8071-9786d80e38bc
+v
+java:S1068".Remove this unused "accountNum" private field.(—¤üÞûÿÿÿÿ8º úè1J$6c0e7159-3230-4e5b-9020-1d71c1fc7a97
+k
+java:S1068"/Remove this unused "accountType" private field.(¡š¼çJ$4e59cd90-d78f-42c9-be96-55220570a4ee
+l
+java:S1068"+Remove this unused "balance" private field.(Õ¢’£ÿÿÿÿÿJ$d464a3ab-d24b-4200-8d53-c3fda58545c7

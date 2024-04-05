@@ -1,8 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-G
-src/main/java/main.java,d\3\d3c26bf08301c98991887bafaf09d331e2067b4c
 V
 &src/main/java/customer/Individual.java,d\1\d12a8f2648a11b4b7a185ac754b08db79b9a664e
 S
@@ -15,3 +13,11 @@ R
 "src/main/java/product/Account.java,b\2\b2ef488dd797d23580399eb975215e9a5d369c21
 \
 ,src/main/java/product/InvestCertificate.java,a\a\aa8c82d1e8dfee101fbde0f90c2edaf9045a7887
+f
+6src/main/java/login/JavaServlet_HandlingUserInput.java,5\0\5066c4f525ad89a2764ecd9296373915950e429d
+R
+"src/main/java/login/loginForm.html,7\d\7df2af4cb38ef80d5aa7b90cbb7a146b37322672
+L
+src/main/java/main/main.java,1\1\11df2f4681d63dcc759cd116e8ffe24faebfa0c8
+L
+src/main/java/main/Main.java,7\f\7f08be4e9c62f2e5f8f02242af89b918cb9a135f

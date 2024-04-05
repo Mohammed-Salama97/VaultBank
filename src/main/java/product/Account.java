@@ -2,6 +2,7 @@ package product;
 
 public class Account {
 
+    private String accountNum;
     private String accountType;
     private double balance;
 
