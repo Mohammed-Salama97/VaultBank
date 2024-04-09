@@ -14,30 +14,47 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/LoginServlet")
 public class JavaServlet_HandlingUserInput extends HttpServlet {
-    private static final long serialVersionUID = 1L;
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String username = request.getParameter("username");
-        String password = request.getParameter("password");
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
 
-        String url = "jdbc:mysql://localhost:3306/?user=root";
-        String dbUsername = "root";
-        String dbPassword = "Pa$$w0rd";
+        // JDBC URL, username, and password of MySQL server
+        String url = "jdbc:mysql://localhost:3306/your_database";
+        String user = "username";
+        String password = "password";
+
+        //* JDBC connection *//
+        // Query
+        String query = "INSERT INTO `jdbc_training`.`customer` (`CUSTOMER_ID`, `CUSTOMER_NAME`) VALUES('"+ coral.getCompTaxNum()+"','"+ coral.getCompName()+ "');";
+
 
         try {
-            Connection conn = DriverManager.getConnection(url, dbUsername, dbPassword);
-            String sql = "INSERT INTO users (username, password) VALUES (?, ?)";
-            PreparedStatement statement = conn.prepareStatement(sql);
-            statement.setString(1, username);
-            statement.setString(2, password);
-            int rowsInserted = statement.executeUpdate();
-            if (rowsInserted > 0) {
-                response.sendRedirect("login.html"); // Redirect to login page after successful registration
-            }
+            // connection
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_training", "root", "Pa$$w0rd");
+
+            // passing query to the connect socket
+            PreparedStatement pstmt = conn.prepareStatement(query);
+
+            // Set the values for the prepared statement
+            pstmt.setString(1, request.getParameter("name"));
+            pstmt.setString(2, request.getParameter("email"));
+            pstmt.setString(3, request.getParameter("phone"));
+
+            // Execute the query to insert data
+            int rows = pstmt.executeUpdate();
+
+            // Close the connection and statement objects
+            pstmt.close();
             conn.close();
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-            response.sendRedirect("error.html"); // Redirect to error page if registration fails
+
+            // If insertion was successful, display success message
+            if (rows > 0) {
+                out.println("<h3>Record inserted successfully</h3>");
+            } else {
+                out.println("<h3>Failed to insert record</h3>");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 }

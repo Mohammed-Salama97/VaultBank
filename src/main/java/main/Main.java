@@ -18,7 +18,7 @@ public class Main {
 
         //* JDBC connection *//
         // Query
-        String query = "INSERT INTO `jdbc_training`.`customer` (`CUSTOMER_ID`, `CUSTOMER_NAME`) VALUES('"+ coral.getCompTaxNum()+"','"+ coral.getCompName()+ "');";
+        String query = "INSERT INTO `jdbc_training`.`customer` (`CUSTOMER_ID`, `CUSTOMER_NAME`) VALUES(?, ?, ?))";
 
         // connection
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc_training", "root", "Pa$$w0rd");
@@ -31,5 +31,6 @@ public class Main {
 
         // closing
         con.close();
+
     }
 }
